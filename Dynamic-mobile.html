@@ -1,38 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Please Wait...</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Custom URL</title>
 </head>
 <body>
-  <h1>Please Wait...</h1>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const urls = [
-            'https://security.oppo.com/en/',
-            'https://www.youtube.com/watch?v=tf-HYnN0H4Y',
-            'https://x.com/OSRC_Official',
-            'https://www.youtube.com/watch?v=tf-HYnN0H4Y'
-        ];
-
-        const defaultDelay = 3000; // Default delay
-    
-        const replaceUrlSequentially = (index) => {
-            if (index < urls.length) {
-                let delay = defaultDelay;
-
-                setTimeout(() => {
-                    window.location.replace(urls[index]);
-                    replaceUrlSequentially(index + 1); // Call recursively to process next URL
-                }, delay);
-            }
-        };
-
-        replaceUrlSequentially(0); // Start with the first URL
-    });
-  </script>
-
+    <h1>Open Custom URL Scheme</h1>
+    <a href="finlife://finlife/webView/tabWeb?url=https%3A%2F%2Fsyukirman-amir.github.io%2Foppo%2FDynamic-Content.html">Open Link</a>
 </body>
 </html>
